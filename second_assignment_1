@@ -1,0 +1,29 @@
+import pandas as pd
+import csv
+
+
+def read_excel_file():
+    path = "/Users/armeshram/Documents/Machine_Learning/Programs/Task2.xlsx"
+    #filenames = glob.glob(path + "\*.xlsx")
+    filenames = glob.glob(path)
+    print('File names:', filenames)
+
+def main():
+    read_excel_file()
+
+
+#for file in filenames:
+#   print("Reading file = ",file)
+#   print(pd.read_excel(file))
+#
+
+#create_first_csv_file:
+#    with open("ServiceDomain.csv", 'r') as file:
+#    csvreader = csv.reader(file)
+#    for row in csvreader:
+#        print(row)
+
+if __name__ == "__main__":
+    main()
+#    create_first_csv_file()
+
